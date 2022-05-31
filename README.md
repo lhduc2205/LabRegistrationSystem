@@ -25,6 +25,7 @@ flutter run
 
 ### API
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
+* Server
 Move to API folder in terminal
 ```bash
 cd ./api
@@ -36,5 +37,11 @@ npm i
 Run api
 ```bash
 npm run dev
+```
+
+* Database
+> Make sure current path is `<your_achive_folder>/LabRegistrationSystem/api>`.
+```bash
+cd ./db
 ```
 
