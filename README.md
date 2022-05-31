@@ -8,7 +8,11 @@ git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
 
 ### Database
-You can download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home")
+You must download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home") because this system use PostgreSQL.
+Create username and password.
+Create database **<your_database_name>**.
+
+
 
 ### API
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
