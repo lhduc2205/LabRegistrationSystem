@@ -8,7 +8,7 @@ git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
 
 ### Front-end
-> Make sure current path is `<your_achive_folder>/`**LabRegistrationSystem**`>`.
+> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
 
 Move to front-end folder in terminal
 ```bash
@@ -18,8 +18,13 @@ Generate pubspec.lock file
 ```bash
 flutter pub get
 ```
+Run client
+```bash
+flutter run
+```
 
 ### API
+> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
 Move to API folder in terminal
 ```bash
 cd ./api
@@ -27,5 +32,9 @@ cd ./api
 Generate node_modules folder
 ```bash
 npm i
+```
+Run api
+```bash
+npm run dev
 ```
 
