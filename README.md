@@ -41,6 +41,7 @@ npm run dev
 
 * Database
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem/api>`.
+Move to db folder in terminal
 ```bash
 cd ./db
 ```
