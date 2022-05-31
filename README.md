@@ -30,7 +30,7 @@ Create database has name is **LabRegistrationSystem**.
     ```bash
     npm i
     ```
-    Run api
+    Run server
     ```bash
     npm run dev
     ```
