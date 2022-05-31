@@ -7,21 +7,8 @@ Lab registrion system is an application that provide schedules registration feat
 git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
 
-### Front-end
-> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
-
-Move to front-end folder in terminal
-```bash
-cd ./front-end
-```
-Generate pubspec.lock file
-```bash
-flutter pub get
-```
-Run client
-```bash
-flutter run
-```
+### Database
+You can download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home")
 
 ### API
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
@@ -41,7 +28,6 @@ flutter run
     npm run dev
     ```
 
-
 * **Database**
 
     Move to db folder in terminal
@@ -57,3 +43,18 @@ flutter run
     npm run seed
     ```
 
+### Front-end
+> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
+
+Move to front-end folder in terminal
+```bash
+cd ./front-end
+```
+Generate pubspec.lock file
+```bash
+flutter pub get
+```
+Run client
+```bash
+flutter run
+```
