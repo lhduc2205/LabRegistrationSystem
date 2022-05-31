@@ -26,7 +26,7 @@ Create database has name is **LabRegistrationSystem**.
     ```bash
     cd ./api
     ```
-    Generate node_modules folder
+    Generate _node_modules_ folder
     ```bash
     npm i
     ```
@@ -69,7 +69,7 @@ Move to front-end folder in terminal
 ```bash
 cd ./front-end
 ```
-Generate pubspec.lock file
+Generate _pubspec.lock_ file
 ```bash
 flutter pub get
 ```
