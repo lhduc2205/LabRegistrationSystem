@@ -25,24 +25,25 @@ flutter run
 
 ### API
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
-* Server
-Move to API folder in terminal
-```bash
-cd ./api
-```
-Generate node_modules folder
-```bash
-npm i
-```
-Run api
-```bash
-npm run dev
-```
+* **Server**
+    Move to API folder in terminal
+    ```bash
+    cd ./api
+    ```
+    Generate node_modules folder
+    ```bash
+    npm i
+    ```
+    Run api
+    ```bash
+    npm run dev
+    ```
 
-* Database
-> Make sure current path is `<your_achive_folder>/LabRegistrationSystem/api>`.
-Move to db folder in terminal
-```bash
-cd ./db
-```
+
+* **Database**
+    > Make sure current path is `<your_achive_folder>/LabRegistrationSystem/api>`.
+    Move to db folder in terminal
+    ```bash
+    cd ./db
+    ```
 
