@@ -25,7 +25,9 @@ flutter run
 
 ### API
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
+
 * **Server**
+
     Move to API folder in terminal
     ```bash
     cd ./api
@@ -41,9 +43,17 @@ flutter run
 
 
 * **Database**
-    > Make sure current path is `<your_achive_folder>/LabRegistrationSystem/api>`.
+
     Move to db folder in terminal
     ```bash
     cd ./db
+    ```
+    Create migrations
+    ```bash
+    npm run migration
+    ```
+    Create seeds
+    ```bash
+    npm run seed
     ```
 
