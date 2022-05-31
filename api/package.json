@@ -1,0 +1,39 @@
+{
+    "name": "lab_registration_server",
+    "version": "1.0.0",
+    "description": "server provide api for web & mobile",
+    "main": "server.js",
+    "scripts": {
+        "migrate": "npx knex migrate:latest --knexfile db/knexfile.js",
+        "seed": "npx knex seed:run --knexfile db/knexfile.js",
+        "dev": "nodemon ./server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "author": "",
+    "license": "ISC",
+    "lint-staged": {
+        "**/*.{js}": "prettier --single-quote --trailing-comma all --write --tab-width 4"
+    },
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.2",
+        "cors": "^2.8.5",
+        "date-format": "^4.0.5",
+        "dotenv": "^10.0.0",
+        "exceljs": "^4.3.0",
+        "express": "^4.17.2",
+        "genetic-js-no-ww": "^0.2.1",
+        "jsonwebtoken": "^8.5.1",
+        "knex": "^1.0.1",
+        "multer": "^1.4.4",
+        "nodemon": "^2.0.15",
+        "pg": "^8.7.1",
+        "xlsx": "^0.18.3"
+    },
+    "devDependencies": {
+        "husky": "^7.0.4",
+        "morgan": "^1.10.0",
+        "prettier": "^2.5.1"
+    }
+}
