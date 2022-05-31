@@ -8,7 +8,7 @@ git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
 
 ### Front-end
-> Make sure current path like `<your_achive_folder>/LabRegistrationSystem>`.
+> Make sure current path is `<your_achive_folder>/`**LabRegistrationSystem**`>`.
 
 Move to front-end folder in terminal
 ```bash
