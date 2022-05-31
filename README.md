@@ -6,6 +6,7 @@ Lab registrion system is an application that provide schedules registration feat
 ```bash
 git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
+<br/>
 
 ### Database
 You must download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home") because this system use PostgreSQL.
@@ -13,6 +14,7 @@ You must download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home") 
 Create username and password to login pgAdmin4.
 
 Create database has name is **LabRegistrationSystem**.
+<br/>
 
 
 
@@ -33,6 +35,7 @@ Create database has name is **LabRegistrationSystem**.
     ```bash
     npm run dev
     ```
+    <br/>
 
 * **Database**
 
@@ -41,7 +44,7 @@ Create database has name is **LabRegistrationSystem**.
     cd ./db
     ```
 
-    > To connect with your DB, you will change some value at knexfile.js
+    To connect with your DB, you will change some value at knexfile.js
 
     ```JavaScript
     connection: {
@@ -60,6 +63,8 @@ Create database has name is **LabRegistrationSystem**.
     ```bash
     npm run seed
     ```
+    
+    <br/>
 
 ### Front-end
 > Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
