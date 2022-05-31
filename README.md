@@ -12,7 +12,7 @@ You must download [pgAdmin4](https://www.pgadmin.org/download/ "pgAdmin4 Home") 
 
 Create username and password to login pgAdmin4.
 
-Create database have name is **LabRegistrationSystem**.
+Create database has name is **LabRegistrationSystem**.
 
 
 
