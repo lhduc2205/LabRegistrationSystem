@@ -8,7 +8,7 @@ git clone https://github.com/lhduc2205/LabRegistrationSystem.git
 ```
 
 ### Front-end
-Move to front-end folder in terminal
+> Move to front-end folder in terminal
 ```bash
 cd ./front-end
 ```
