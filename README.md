@@ -18,7 +18,7 @@ Create database has name is **LabRegistrationSystem**.
 
 
 ### API
-> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
+> Make sure your current path is `<your_achive_folder>/LabRegistrationSystem>`.
 
 * **Server**
 
@@ -63,7 +63,7 @@ Create database has name is **LabRegistrationSystem**.
     ```
 
 ### Front-end
-> Make sure current path is `<your_achive_folder>/LabRegistrationSystem>`.
+> Make sure your current path is `<your_achive_folder>/LabRegistrationSystem>`.
 
 Move to front-end folder in terminal
 ```bash
